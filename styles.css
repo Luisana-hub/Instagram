@@ -1,0 +1,55 @@
+body{
+    background: black;
+}
+.post{
+    background: black;
+    height: 900px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 450px; padding-right: 400px;
+}
+.postHead{
+    background:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.headizquierda{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    font-size: 20px;
+}
+.textohead{
+    display: flex;
+    flex-direction: column;
+}
+.headderecha{
+    display: flex;
+    float: right;
+    font-size: 25px;
+}
+.fa-ellipsis-v:before {
+    content: "\f142";
+    margin: 10px;
+}
+.imagen{
+    background: white;
+}
+.postFooter{
+    background: white;
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.iconos{
+    background:white;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
